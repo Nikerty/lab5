@@ -3,7 +3,7 @@ name: Unit Test on Pull Request
 on:
   pull_request:
     types: [opened]
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   unit_job:
@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-          with:
-            node-version: '16'
+        with:
+          node-version: "16"
       - run: npm ci
       - run: echo "Running unit test"
       - run: npm test
