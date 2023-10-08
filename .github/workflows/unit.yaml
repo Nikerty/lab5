@@ -7,5 +7,12 @@ on:
 jobs:
   unit_job:
     name: Job for Unit tests
+    runs-on: ubuntu-latest
+
     steps:
-      - run: echo "Unit tests should be here"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+          with:
+            node-version: '16'
+      - run: echo "Running unit test"
+      - run: npm test
