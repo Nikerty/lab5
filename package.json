@@ -40,6 +40,13 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.50.0"
-  }
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/github": "^9.2.1",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "eslint": "^8.50.0",
+    "semantic-release": "^22.0.7"
+  },
+  "repository": {
+    "url": "https://github.com/Bearegor/GitLearning4"
+    }
 }
