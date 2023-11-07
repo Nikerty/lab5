@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   const greeting = "Это тестовый проект Ведмеденко Егора Алексеевича.";
   const hope = " Всё работает!"
+  const rel = "Добавлен семантический выпуск"
 
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {greeting}
         {hope}
+        {rel}
       </header>
     </div>
   );
