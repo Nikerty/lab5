@@ -2,8 +2,10 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const greeting = "Это тестовый проект Ведмеденко Егора Алексеевича.";
+  const greeting = "Это тестовый проект Ведмеденко Е.А.";
   const hope = " Всё работает!"
+  const rel = "Добавлен семантический выпуск"
+  const commit = 'Commit'
 
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {greeting}
         {hope}
+        {rel}
       </header>
     </div>
   );
