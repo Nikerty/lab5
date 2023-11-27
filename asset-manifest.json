@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/GitLearning4/static/css/main.073c9b0a.css",
+    "main.js": "/GitLearning4/static/js/main.7fdf75d2.js",
+    "static/js/787.a86f3764.chunk.js": "/GitLearning4/static/js/787.a86f3764.chunk.js",
+    "static/media/logo.svg": "/GitLearning4/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/GitLearning4/index.html",
+    "main.073c9b0a.css.map": "/GitLearning4/static/css/main.073c9b0a.css.map",
+    "main.7fdf75d2.js.map": "/GitLearning4/static/js/main.7fdf75d2.js.map",
+    "787.a86f3764.chunk.js.map": "/GitLearning4/static/js/787.a86f3764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7fdf75d2.js"
+  ]
+}
