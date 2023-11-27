@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const greeting = "Это тестовый проект Ведмеденко Е.А.";
+  const greeting = "Это пятая лабораторная Литвинова Н.А.";
   const hope = " Всё работает!"
   const rel = "Добавлен семантический выпуск"
   const vers = 'Это версия 1.0.0'
